@@ -3,3 +3,14 @@
 //= link_tree ../../javascript .js
 //= link_tree ../../../vendor/javascript .js
 //= link bootstrap.min.js
+//= link jquery.min
+//= link bootstrap.bundle.min.js
+//= link owl-carousel.min
+//= link isotope
+//= link jquery.nice.select
+//= link jquery.fancybox.min
+//= link wow.min.js
+//= link jquery.animateNumber.min
+//= link jquery.waypoints.min
+//= link google-maps
+//= link topbar-virtual

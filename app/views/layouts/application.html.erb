@@ -8,18 +8,17 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
-    <%= stylesheet_link_tag "bootstrap.min", "style" %>
+    <%= stylesheet_link_tag "themify-icon", "bootstrap.css", "animate.css", "owl-carousel", "nice-select", "jquery-fancy-box", "virtual", "topbar" %>
   </head>
 
-  <body id="home">
+  <body id="home" class="theme-green">
     <%= render "layouts/header" %>
-    <%= render "layouts/jumbotron" %>
     <%= render "layouts/about" %>
-    <%= render "layouts/projects" %>
-    <%= render "layouts/contact" %>
-    <%= render "layouts/footer" %>
+    <%# <%= render "layouts/projects" %>
+    <%# <%= render "layouts/contact" %>
+    <%# <%= render "layouts/footer" %>
     <%= yield %>
 
-    <%= javascript_include_tag "bootstrap.min" %>
+    <%= javascript_include_tag "bootstrap.min", "jquery.min", "bootstrap.bundle.min", "owl-carousel.min", "isotope", "jquery.nice.select", "jquery.fancybox.min", "wow.min.js", "jquery.animateNumber.min", "jquery.waypoints.min", "google-maps", "topbar-virtual" %>
   </body>
 </html>
